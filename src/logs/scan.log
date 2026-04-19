@@ -1,0 +1,12 @@
+2026-04-19 12:35:15,168 Payload: <script>alert('XSS')</script>, Vulnerable: False
+2026-04-19 12:35:15,168 Payload: <img src=x onerror=alert('XSS')>, Vulnerable: False
+2026-04-19 12:35:15,168 Payload: ';alert(String.fromCharCode(88,83,83))//, Vulnerable: False
+2026-04-19 12:35:15,168 Payload: <svg onload=alert(1)>, Vulnerable: False
+2026-04-19 13:37:36,278 Payload: <script>alert('XSS')</script>, Vulnerable: False
+2026-04-19 13:37:36,278 Payload: <img src=x onerror=alert('XSS')>, Vulnerable: False
+2026-04-19 13:37:36,278 Payload: ';alert(String.fromCharCode(88,83,83))//, Vulnerable: False
+2026-04-19 13:37:36,278 Payload: <svg onload=alert(1)>, Vulnerable: False
+2026-04-19 15:18:38,738 Payload: <script>alert('XSS')</script>, Vulnerable: False
+2026-04-19 15:18:38,740 Payload: <img src=x onerror=alert('XSS')>, Vulnerable: False
+2026-04-19 15:18:38,740 Payload: ';alert(String.fromCharCode(88,83,83))//, Vulnerable: False
+2026-04-19 15:18:38,740 Payload: <svg onload=alert(1)>, Vulnerable: False
